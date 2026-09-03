@@ -112,6 +112,16 @@ a {
     font-size: 1.1rem;
 }
 
+.hero__actions {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 14px;
+
+    margin-top: 32px;
+}
+
 
 /* Projects */
 
@@ -303,6 +313,11 @@ a {
         padding: 80px 0;
     }
 
+    .hero__actions {
+        flex-direction: column;
+    
+        align-items: stretch;
+    }
 
     .projects {
         padding: 60px 0 80px;
@@ -319,6 +334,41 @@ a {
     }
 
 }
+
+.hero__eyebrow {
+    animation: heroFadeUp 0.7s ease both;
+}
+
+
+.hero__title {
+    animation: heroFadeUp 0.7s 0.15s ease both;
+}
+
+
+.hero__description {
+    animation: heroFadeUp 0.7s 0.3s ease both;
+}
+
+
+.hero__actions {
+    animation: heroFadeUp 0.7s 0.45s ease both;
+}
+
+
+@keyframes heroFadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
 
 @media (prefers-reduced-motion: reduce) {
     *,
