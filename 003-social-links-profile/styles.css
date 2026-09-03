@@ -115,7 +115,7 @@ a {
     text-align: center;
 }
 
-.social-links {
+.social-links-list {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -132,19 +132,19 @@ a {
     padding: var(--spacing-150);
     border-radius: 8px;
     background-color: var(--color-grey-700);
+    transition: color, background-color linear 150ms;
 }
 
 .social-link:hover {
     color: var(--color-grey-700);
     background-color: var(--color-green);
-    transition: all linear 150ms;
 }
 
 
 
 @media screen and (max-width: 375px) {
     .profile-card {
-        width: 327px;
+        width: min(100%, 384px);
         padding: var(--spacing-300);
     }
 }
