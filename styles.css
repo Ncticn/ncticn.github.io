@@ -1,11 +1,11 @@
 :root {
-    --color-background: #0f172a;
-    --color-surface: #1e293b;
-    --color-surface-hover: #263449;
+    --color-background: #f8f7f3;
+    --color-surface: #ffffff;
+    --color-surface-hover: #f3f1eb;
 
-    --color-primary: #38bdf8;
-    --color-text: #f8fafc;
-    --color-text-muted: #94a3b8;
+    --color-primary: #2563eb;
+    --color-text: #1f2937;
+    --color-text-muted: #6b7280;
 
     --container-width: 1100px;
     --radius: 16px;
@@ -72,11 +72,11 @@ a {
     text-align: center;
 
     background:
-        radial-gradient(
-            circle at top,
-            rgba(56, 189, 248, 0.15),
-            transparent 45%
-        );
+    radial-gradient(
+        circle at top,
+        rgba(37, 99, 235, 0.08),
+        transparent 45%
+    );
 }
 
 
@@ -147,12 +147,9 @@ a {
 
 .project-card {
     overflow: hidden;
-
     background: var(--color-surface);
-
     border-radius: var(--radius);
-
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(31, 41, 55, 0.08);
 }
 
 
@@ -212,7 +209,7 @@ a {
     border-radius: 8px;
 
     background: var(--color-primary);
-    color: #082f49;
+    color: #ffffff;
 
     font-size: 0.9rem;
     font-weight: 700;
@@ -247,12 +244,9 @@ a {
 
 .footer {
     padding: 30px 0;
-
     color: var(--color-text-muted);
-
     text-align: center;
-
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(31, 41, 55, 0.08);
 }
 
 
