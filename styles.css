@@ -272,25 +272,7 @@ a {
     border-radius: var(--radius);
 
     border: 1px solid rgba(31, 41, 55, 0.08);
-
-    opacity: 0;
-
-    transform: translateY(40px);
-
-    transition:
-        opacity 0.7s ease,
-        transform 0.7s ease,
-        box-shadow 0.35s ease,
-        border-color 0.35s ease;
 }
-
-
-.project-card.is-visible {
-    opacity: 1;
-
-    transform: translateY(0);
-}
-
 
 .project-card:hover {
     transform: translateY(-8px);
@@ -299,6 +281,26 @@ a {
         0 20px 40px rgba(31, 41, 55, 0.12);
 
     border-color: rgba(37, 99, 235, 0.2);
+}
+
+.project-card,
+.about__content,
+.contact__content {
+    opacity: 0;
+
+    transform: translateY(40px);
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.project-card.is-visible,
+.about__content.is-visible,
+.contact__content.is-visible {
+    opacity: 1;
+
+    transform: translateY(0);
 }
 
 .project-card__image {
@@ -443,6 +445,69 @@ a {
     background: rgba(37, 99, 235, 0.06);
     border-color: rgba(37, 99, 235, 0.25);
     color: var(--color-primary);
+}
+
+
+/* About */
+
+.about {
+    padding: 100px 0;
+
+    background: #ffffff;
+}
+
+
+.about__content {
+    max-width: 750px;
+}
+
+
+.about__text {
+    max-width: 650px;
+
+    margin-top: 20px;
+
+    color: var(--color-text-muted);
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 120px 0;
+
+    text-align: center;
+}
+
+
+.contact__content {
+    max-width: 700px;
+
+    margin-inline: auto;
+}
+
+
+.contact__title {
+    margin-top: 10px;
+
+    font-size: clamp(2rem, 5vw, 3.5rem);
+
+    line-height: 1.1;
+}
+
+
+.contact__description {
+    max-width: 550px;
+
+    margin: 20px auto 30px;
+
+    color: var(--color-text-muted);
+
+    font-size: 1.05rem;
 }
 
 
