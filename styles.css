@@ -146,19 +146,61 @@ a {
 /* Project Card */
 
 .project-card {
+    position: relative;
     overflow: hidden;
     background: var(--color-surface);
     border-radius: var(--radius);
     border: 1px solid rgba(31, 41, 55, 0.08);
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+    animation: cardEnter 0.7s ease both;
 }
+
+.project-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.project-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.project-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.project-card:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 20px 40px rgba(31, 41, 55, 0.12);
+    border-color: rgba(37, 99, 235, 0.2);
+}
+
 
 
 .project-card__image {
     aspect-ratio: 16 / 10;
-
-    background: #020617;
+    overflow: hidden;
+    background: #e5e7eb;
 }
 
+.project-card__image img {
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.5s ease;
+}
+
+.project-card:hover .project-card__image img {
+    transform: scale(1.05);
+}
 
 .project-card__content {
     padding: 28px;
@@ -215,15 +257,17 @@ a {
     font-weight: 700;
 
     transition:
-        transform 0.2s ease,
-        background 0.2s ease;
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 
 .button:hover {
-    transform: translateY(-2px);
-
-    background: #7dd3fc;
+    transform: translateY(-3px);
+    background: #1d4ed8;
+    box-shadow:
+        0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
 
@@ -236,7 +280,9 @@ a {
 
 
 .button--secondary:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(37, 99, 235, 0.06);
+    border-color: rgba(37, 99, 235, 0.25);
+    color: var(--color-primary);
 }
 
 
@@ -272,3 +318,27 @@ a {
     }
 
 }
+
+@keyframes cardEnter {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
