@@ -16,7 +16,7 @@
 
     /* Font Family */
     --font-outfit: "Outfit", sans-serif;
-    --font-youngSerif-Regular: "Young Serif", serif;
+    --font-youngSerif-Regular: "YoungSerif Regular", serif;
 
     /* Colors */
     --color-rose-800: #7A284E;
@@ -86,33 +86,35 @@ li::marker {
 
 .text-preset-1 {
     font-family: var(--font-youngSerif-Regular);
-    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 400;
     line-height: 100%;
 }
 
 .text-preset-2 {
     font-family: var(--font-youngSerif-Regular);
-    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 400;
     line-height: 100%;
 }
 
 .text-preset-3 {
     font-family: var(--font-outfit);
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 100%;
     font-weight: 600;
 }
 
 .text-preset-4 {
     font-family: var(--font-outfit);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     font-weight: 400;
 }
 
 .text-preset-4-bold {
     font-family: var(--font-outfit);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     font-weight: 700;
 }
@@ -195,7 +197,7 @@ li::marker {
     font-family: var(--font-outfit);
     font-weight: 700;
     line-height: 150%;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
 }
 
@@ -222,25 +224,27 @@ li::marker {
 .card-recipe-nutrition-table-name {
     color: var(--color-stone-600);
     padding: var(--spacing-150) var(--spacing-400);
+    text-align: start;
+    font-weight: 400;
 }
 
 .card-recipe-nutrition-table-value {
     color: var(--color-brown-800);
     padding: var(--spacing-150) var(--spacing-400);
+    font-weight: 700;
 }
 
 
-
-
 @media screen and (max-width: 768px) {
-    .text-preset-1 {
-        font-family: var(--font-youngSerif-Regular);
-        font-size: 36px;
-        line-height: 100%;
-    }
 
     body {
         padding: 0;
+    }
+
+    .text-preset-1 {
+        font-family: var(--font-youngSerif-Regular);
+        font-size: 2.25rem;
+        line-height: 100%;
     }
 
     .card-recipe {
