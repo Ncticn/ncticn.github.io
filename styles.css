@@ -320,6 +320,10 @@ a {
     transform: scale(1.05);
 }
 
+.project-card:hover .technology {
+    transform: translateY(-2px);
+}
+
 .project-card__content {
     padding: 28px;
 }
@@ -348,13 +352,51 @@ a {
     color: var(--color-text-muted);
 }
 
+.project-card__technologies {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 20px;
+}
+
+.technology {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 5px 10px;
+
+    border-radius: 999px;
+
+    background: rgba(37, 99, 235, 0.08);
+
+    color: var(--color-primary);
+
+    font-size: 0.75rem;
+    font-weight: 700;
+
+    letter-spacing: 0.03em;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.technology:hover {
+    background: rgba(37, 99, 235, 0.14);
+
+    transform: translateY(-2px);
+}
 
 .project-card__actions {
     display: flex;
 
     gap: 12px;
 
-    margin-top: 24px;
+    margin-top: 28px;
 }
 
 
