@@ -54,8 +54,8 @@ Through this project, I practiced:
 
 ## 🔗 Links
 
-- 💻 **Live Demo:** [Live Demo Link]
-- 🧠 **Challenge:** [Challenge Link]
+- 💻 **Live Demo:** https://ncticn.github.io/004-recipe-page/
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/recipe-page-html-css-IUgWO09ZPp
 
 
 ## ⚙️ Installation & Running the Project

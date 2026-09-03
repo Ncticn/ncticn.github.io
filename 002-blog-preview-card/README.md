@@ -46,8 +46,8 @@ Through this project, I practiced:
 
 ## 🔗 Links
 
-- 💻 **Live Demo:** https://ncticn.vercel.app/projects/61-advice-generator-app
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/advice-generator-app-nextjs-typescript-tailwindcss-components-Vg0eB_29gH
+- 💻 **Live Demo:** https://ncticn.github.io/002-blog-preview-card/
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/blog-preview-card-html-css-GXk-CFikMT
 
 ## ⚙️ Installation & Running the Project
 
