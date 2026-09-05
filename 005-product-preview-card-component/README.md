@@ -57,7 +57,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/005-product-preview-card-component/
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/recipe-page-html-css-IUgWO09ZPp
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-ztDnMZGLzV
 
 
 ## ⚙️ Installation & Running the Project
