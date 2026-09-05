@@ -182,6 +182,11 @@ a {
     background-color: var(--color-green-700);
 }
 
+.btn:focus-visible{
+    outline: 2px solid var(--color-green-700);
+    outline-offset: 2px;
+}
+
 
 @media (width> 26.375rem) {
     .product-preview-card {
