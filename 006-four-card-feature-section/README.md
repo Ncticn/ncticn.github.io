@@ -50,7 +50,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/006-four-card-feature-section/
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-ztDnMZGLzV
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-67ohqR3t29
 
 
 ## ⚙️ Installation & Running the Project
