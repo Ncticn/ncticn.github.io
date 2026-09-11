@@ -121,7 +121,7 @@ ol {
 }
 
 .card-testimonials {
-    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 1);
     padding: var(--spacing-400) var(--spacing-400);
     border-radius: 8px;
     position: relative;
