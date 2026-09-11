@@ -21,7 +21,6 @@ Through this project, I practiced and learned:
 - Reproducing a professional UI design as closely as possible
 
 
-
 ## 🧠 What I Learned
 
 Through this project, I practiced:
@@ -34,7 +33,6 @@ Through this project, I practiced:
 - Translating a provided design into a functional web interface
 - Understanding how to organize multiple testimonials within a responsive grid layout
 - Paying closer attention to visual details when reproducing a professional UI design
-
 
 
 ## 🛠️ Tech Stack & Concepts
@@ -51,7 +49,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/007-testimonials-grid-section/
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-67ohqR3t29
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/testimonials-grid-section-html-css-wb5rPBLNgA
 
 
 ## ⚙️ Installation & Running the Project
