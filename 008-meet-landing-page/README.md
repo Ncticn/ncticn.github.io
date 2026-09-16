@@ -54,7 +54,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/008-meet-landing-page
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-ztDnMZGLzV
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/meet-landing-page-html-css-O-77n8kgyR
 
 
 ## ⚙️ Installation & Running the Project
