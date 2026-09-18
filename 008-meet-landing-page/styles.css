@@ -516,6 +516,9 @@ footer .counter {
     .image-collage {
         gap: var(--spacing-400);
         grid-template-columns: repeat(4, minmax(0, 16rem));
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
 
     .image-collage-card {
