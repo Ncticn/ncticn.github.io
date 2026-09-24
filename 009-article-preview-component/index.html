@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Article Preview Component</title>
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/ba92879b5d.js" crossorigin="anonymous"></script>
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <article class="card-article-preview">
+            <div class="card-article-preview-wrapper">
+                <img src="./assets/images/drawers.jpg" alt="" class="card-article-preview-image">
+                <div class="card-article-preview-content">
+                    <div class="card-article-preview-content-title-and-description">
+                        <h1 class="card-article-preview-title text-preset-1">
+                            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+                        </h1>
+                        <p class="card-article-preview-description text-preset-2">
+                            Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and
+                            uninviting. I’ve got some simple tips to help you make any room feel complete.
+                        </p>
+                    </div>
+
+                    <div class="card-article-preview-button-group">
+                        <div class="card-article-preview-profile-and-date">
+                            <div class="card-article-preview-avatar">
+                                <img src="./assets/images/avatar-michelle.jpg" alt="">
+                            </div>
+                            <div class="card-article-preview-author">
+                                <h2 class="card-article-preview-author-name text-preset-2">
+                                    <b>
+                                        Michelle Appleton
+                                    </b>
+                                </h2>
+                                <time class="card-article-preview-author-date text-preset-2" datetime="2020-06-28">
+                                    28 Jun 2020
+                                </time>
+                            </div>
+                        </div>
+                        <button type="button" class="share-button" id="share_button">
+                            <div class="share-button-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"
+                                    class="share-button-icon">
+                                    <path fill="currentColor"
+                                        d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="toast-share" id="toast_share">
+                        <div class="toast-share-wrapper">
+                            <div class="toast-share-content">
+                                <p class="toast-share-context text-preset-3">
+                                    SHARE
+                                </p>
+                                <div class="toast-share-icons">
+                                    <a href="#" class="toast-share-icon-link" aria-label="Share on Facebook">
+                                        <img src="./assets/icons/icon-facebook.svg" alt="">
+                                    </a>
+                                    <a href="#" class="toast-share-icon-link" aria-label="Share on Twitter">
+                                        <img src="./assets/icons/icon-twitter.svg" alt="">
+                                    </a>
+                                    <a href="#" class="toast-share-icon-link" aria-label="Share on Pinterest">
+                                        <img src="./assets/icons/icon-pinterest.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
