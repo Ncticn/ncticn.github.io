@@ -7,7 +7,7 @@ shareButton.addEventListener("click" , function(){
     toastShare.classList.toggle("toast-active");
     
     
-    const isOpen = shareButton.getAttribute("aria-expanded") === true;
+    const isOpen = shareButton.getAttribute("aria-expanded") === "true";
 
     shareButton.setAttribute("aria-expanded", !isOpen);
     toastShare.hidden = isOpen;
