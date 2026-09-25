@@ -56,7 +56,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/009-article-preview-component
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/009-article-preview-component
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/article-preview-component-html-css-and-javascript-uxZqFa5dw-
 
 
 ## ⚙️ Installation & Running the Project

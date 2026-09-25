@@ -75,14 +75,14 @@ img {
     font-size: 0.813rem;
     font-weight: 500;
     line-height: 140%;
-    letter-spacing: 0.12%;
+    letter-spacing: 0.01px;
 }
 
 .text-preset-3 {
     font-size: 0.813rem;
     font-weight: 500;
     line-height: 140%;
-    letter-spacing: 25%;
+    letter-spacing: 3.25px
 }
 
 .card-article-preview {
@@ -114,7 +114,7 @@ img {
 .card-article-preview-content {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: stretch;
     justify-content: start;
     gap: var(--spacing-600);
     margin: 0 1.875rem 1.125rem;
@@ -133,8 +133,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
-    gap: var(--spacing-800);
+    justify-content: space-between;
 }
 
 .card-article-preview-profile-and-date {
@@ -207,6 +206,14 @@ img {
     align-items: center;
     justify-content: flex-start;
     gap: var(--spacing-200);
+}
+
+.toast-share-icon-link {
+    transition: opacity 150ms linear;
+}
+
+.toast-share-icon-link:hover{
+    opacity: 90%;
 }
 
 .toast-share-icon-link:focus-visible {
@@ -287,23 +294,18 @@ img {
     }
 
     .card-article-preview-image {
-        max-height: 100%;
         border-top-left-radius: inherit;
         border-bottom-left-radius: inherit;
         border-top-right-radius: unset;
-        flex-basis: 230px;
+        max-width: 230px;
+        object-fit: cover;
+        max-height: none;
     }
 
     .card-article-preview-content {
         margin: 0;
-        flex-basis: 311px;
-        padding: 2.5rem .5rem;
-    }
-
-
-    .card-article-preview-button-group {
-        justify-content: space-between;
-        width: 100%;
+        max-width: 311px;
+        padding: 2.5rem 2.5rem 2.5rem 0;
     }
 
     /* Toast Component Start */
@@ -316,7 +318,8 @@ img {
         display: none;
         position: absolute;
         bottom: 6rem;
-        transform: translate(177%);
+        left: unset;
+        right: -60px;
         height: fit-content;
     }
 
@@ -381,7 +384,7 @@ img {
     }
 
     .card-article-preview-image {
-        flex-basis: 285px;
+        max-width: 285px;
     }
 
     .card-article-preview-content {
@@ -390,8 +393,7 @@ img {
     }
 
     .toast-share {
-        bottom: 5rem;
-        transform: translate(233%);
+        bottom: 5.5rem;
     }
 
 }
