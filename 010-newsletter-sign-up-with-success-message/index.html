@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Newsletter Sign-Up with Success Message</title>
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+
+
+    <main>
+        <section>
+
+            <article class="newsletter-card">
+                <div class="newsletter-card__panel" data-state="form">
+                    <div class="newsletter-card__inner">
+                        <div class="newsletter-card__image">
+                            <picture>
+                                <source media="(min-width:1024px)"
+                                    srcset="./assets/images/illustration-sign-up-desktop.svg">
+                                <source media="(min-width:768px)"
+                                    srcset="./assets/images/illustration-sign-up-tablet.svg">
+                                <source media="(min-width:0)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+
+                                <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+                            </picture>
+                        </div>
+                        <div class="newsletter-card__body">
+                            <div class="newsletter-card__intro">
+                                <h1 class="newsletter-card__title text-preset-1 font-bold">
+                                    Stay updated!
+                                </h1>
+                                <p class="newsletter-card__description text-preset-2 font-regular">
+                                    Join 60,000+ product managers receiving monthly updates on:
+                                </p>
+
+                                <ul class="newsletter-card__list">
+                                    <li class="newsletter-card__list-item text-preset-2 font-regular">
+                                        Product discovery and building what matters
+                                    </li>
+                                    <li class="newsletter-card__list-item text-preset-2 font-regular">
+                                        Measuring to ensure updates are a success
+                                    </li>
+                                    <li class="newsletter-card__list-item text-preset-2 font-regular">
+                                        And much more!
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="newsletter-card__form-wrapper">
+                                <form id="newsletterForm" class="newsletter-card__form" novalidate>
+                                    <div class="newsletter-card__form-item">
+                                        <div class="form-input-label-and-error">
+                                            <label for="inputEmail" class="form-input-label text-preset-3 font-bold">
+                                                Email address
+                                            </label>
+                                            <span class="form-input-error text-preset-3 font-bold"
+                                                id="input-email-error" aria-live="polite">
+                                                Valid email required
+                                            </span>
+                                        </div>
+                                        <input type="email" id="inputEmail" name="email"
+                                            class="text-preset-2 font-regular" placeholder="email@company.com" />
+                                    </div>
+                                    <button type="submit" class="text-preset-2 font-bold">
+                                        Subscribe to monthly newsletter
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsletter-card__panel newsletter-card__panel--success" data-state="success" role="status"
+                    hidden>
+                    <div class="newsletter-card__success-inner">
+                        <div class="newsletter-card__success-intro">
+                            <div class="newsletter-card__success-image">
+                                <img src="./assets/icons/icon-success.svg" alt="">
+                            </div>
+
+                            <h1 class="newsletter-card__success-title text-preset-1 font-bold">
+                                Thanks for
+                                subscribing!
+                            </h1>
+
+                            <p class="newsletter-card__success-description text-preset-2 font-regular">
+                                A confirmation email has been sent to <a href="mailto:ash@loremcompany.com"
+                                    class="newsletter-card__success-email-link" id="successEmail"><strong>
+                                        ash@loremcompany.com</strong></a>. Please open it and click
+                                the button inside to confirm your subscription
+                            </p>
+                        </div>
+
+                        <button type="button" class="text-preset-2 font-bold" id="buttonClear">Dismiss message</button>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
