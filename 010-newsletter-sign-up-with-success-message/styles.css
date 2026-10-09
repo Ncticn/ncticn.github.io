@@ -314,6 +314,10 @@ input:not(:placeholder-shown) {
 
 }
 
+.newsletter-card__success-title:focus {
+    outline: none;
+}
+
 .newsletter-card__success-email-link {
     color: inherit;
 }

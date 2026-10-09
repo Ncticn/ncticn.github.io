@@ -59,9 +59,7 @@
                                                 Email address
                                             </label>
                                             <span class="form-input-error text-preset-3 font-bold"
-                                                id="input-email-error" aria-live="polite">
-                                                Valid email required
-                                            </span>
+                                                id="input-email-error" aria-live="polite"></span>
                                         </div>
                                         <input 
                                             type="email" 
@@ -70,7 +68,6 @@
                                             class="text-preset-2 font-regular" placeholder="email@company.com"
                                             required
                                             aria-invalid="false"
-                                            aria-describedby="input-email-error"
                                             />
                                     </div>
                                     <button type="submit" class="text-preset-2 font-bold">
@@ -90,7 +87,8 @@
                                 <img src="./assets/icons/icon-success.svg" alt="">
                             </div>
 
-                            <h1 class="newsletter-card__success-title text-preset-1 font-bold">
+                            <h1 class="newsletter-card__success-title text-preset-1 font-bold" id="successTitle"
+                                tabindex="-1">
                                 Thanks for
                                 subscribing!
                             </h1>
