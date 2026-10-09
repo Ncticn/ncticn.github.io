@@ -6,8 +6,8 @@ const successTitle = document.getElementById("successTitle");
 const buttonReset = document.getElementById("buttonClear");
 
 
-// The error text and aria-describedby only exist while the email is invalid,
-// so screen readers don't announce an error that isn't there
+
+
 function showEmailError() {
     inputEmail.parentElement.classList.add("is-error");
     inputEmail.setAttribute("aria-invalid", "true");
@@ -39,7 +39,7 @@ newsletterForm.addEventListener("submit", function (e) {
         successEmailLink.href = `mailto:${email}`;
         successEmailLink.lastChild.textContent = email;
 
-        // Move focus to the success heading so keyboard and screen reader users land on the confirmation
+
         successTitle.focus();
 
     } else {
@@ -55,6 +55,6 @@ buttonReset.addEventListener("click", function () {
     clearEmailError();
     inputEmail.value = "";
 
-    // Return focus to the email field so the user can continue from where they left off
+    
     inputEmail.focus();
 });
