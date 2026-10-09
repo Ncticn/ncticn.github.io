@@ -63,8 +63,15 @@
                                                 Valid email required
                                             </span>
                                         </div>
-                                        <input type="email" id="inputEmail" name="email"
-                                            class="text-preset-2 font-regular" placeholder="email@company.com" />
+                                        <input 
+                                            type="email" 
+                                            id="inputEmail" 
+                                            name="email"
+                                            class="text-preset-2 font-regular" placeholder="email@company.com"
+                                            required
+                                            aria-invalid="false"
+                                            aria-describedby="input-email-error"
+                                            />
                                     </div>
                                     <button type="submit" class="text-preset-2 font-bold">
                                         Subscribe to monthly newsletter

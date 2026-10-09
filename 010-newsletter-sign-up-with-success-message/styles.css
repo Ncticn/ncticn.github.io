@@ -358,7 +358,7 @@ input:not(:placeholder-shown) {
 
 @media screen and (min-width:1024px) {
 
-    .newsletter-card__panel:not:has(.newsletter-card__panel--success) {
+    .newsletter-card__panel:not(.newsletter-card__panel--success) {
         padding: var(--spacing-400);
         max-width: 56.5rem;
     }

@@ -9,14 +9,17 @@ newsletterForm.addEventListener("submit", function (e) {
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const email = inputEmail.value;
+    const isValid = emailRegex.test(email.trim());
 
 
-    if (emailRegex.test(email.trim())) {
+    if (isValid) {
         document.querySelector('[data-state="form"]').hidden = true;
         document.querySelector('[data-state="success"]').hidden = false;
 
         successEmailLink.href = `mailto:${email}`;
-        successEmailLink.innerHTML = `<strong>${email}</strong>`;
+        successEmailLink.lastChild.textContent = email;
+        inputEmail.setAttribute("aria-invalid", String(!isValid));
+        console.log(successEmailLink);
 
     } else {
         inputEmail.parentElement.classList.add("is-error");

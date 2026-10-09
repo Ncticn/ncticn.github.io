@@ -63,7 +63,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/010-newsletter-sign-up-with-success-message
-- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/article-preview-component-html-css-and-javascript-uxZqFa5dw-
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-html-css-and-javascript-kVaZmwqIRB
 
 
 ## ⚙️ Installation & Running the Project
