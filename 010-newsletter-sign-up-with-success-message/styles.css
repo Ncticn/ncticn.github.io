@@ -320,8 +320,15 @@ input:not(:placeholder-shown) {
 
 .newsletter-card__success-email-link {
     color: inherit;
+    opacity: 100%;
+    transition: opacity linear 150ms, color linear 150ms;
 }
 
+
+.newsletter-card__success-email-link:hover{
+    color: var(--color-blue-700);
+    opacity: 90%;
+}
 
 
 
