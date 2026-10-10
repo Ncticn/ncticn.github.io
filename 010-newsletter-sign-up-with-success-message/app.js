@@ -7,18 +7,15 @@ const buttonReset = document.getElementById("buttonClear");
 
 
 
-
 function showEmailError() {
     inputEmail.parentElement.classList.add("is-error");
     inputEmail.setAttribute("aria-invalid", "true");
-    inputEmail.setAttribute("aria-describedby", "input-email-error");
     inputEmailError.textContent = "Valid email required";
 }
 
 function clearEmailError() {
     inputEmail.parentElement.classList.remove("is-error");
     inputEmail.setAttribute("aria-invalid", "false");
-    inputEmail.removeAttribute("aria-describedby");
     inputEmailError.textContent = "";
 }
 
