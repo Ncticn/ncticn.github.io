@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Results Summary Component</title>
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section class="results-summary">
+            <div class="results-summary__wrapper">
+                <div class="card-result">
+                    <div class="card-result__content">
+                        <h1 class="card-result__title text-md font-bold">Your Result</h1>
+                        <div class="card-result__circle">
+                            <p class="card-result__value text-2xl font-extrabold" id="cardResultValue"></p>
+                            <p class="card-result__total text-sm font-medium">
+                                of 100
+                            </p>
+                        </div>
+
+                        <div class="card-result__feedback">
+                            <h2 class="card-result__rating text-lg font-bold">Great</h2>
+                            <p class="card-result__description text-sm font-medium">
+                                You scored higher than 65% of the people who have taken these tests.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary__content">
+                    <h3 class="text-md font-bold">Summary</h3>
+                    <ul class="summary-item-list" id="summaryItemList">
+                    </ul>
+                    <button type="button" aria-label="Continue" class="summary__button text-sm font-bold">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
