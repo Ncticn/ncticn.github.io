@@ -62,7 +62,7 @@ function calculateAverage(numbers) {
     if (!Array.isArray(numbers) || numbers.length === 0) return 0;
 
     if (!numbers.every(Number.isFinite)) {
-        console.error("Dizi sadece sayılardan oluşmalıdır.");
+        console.error("Array must contain only numbers.");
         return 0;
     }
 
@@ -75,7 +75,7 @@ async function init() {
     const items = await getData();
 
     if (items.length === 0) {
-        summaryItemList.textContent = "Veriler yüklenemedi.";
+        summaryItemList.textContent = "The data could not be loaded.";
         return;
     }
 

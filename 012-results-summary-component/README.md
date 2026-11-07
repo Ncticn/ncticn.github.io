@@ -67,8 +67,8 @@ Through this project, I practiced:
 
 ## 🔗 Links
 
-- 💻 **Live Demo:** https://ncticn.github.io/011-results-summary-component
-- 🧠 **Challenge:** [Add Frontend Mentor solution link here]
+- 💻 **Live Demo:** https://ncticn.github.io/012-results-summary-component
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/results-summary-component-html-css-and-javascript-cebqdh49MW
 
 
 ## ⚙️ Installation & Running the Project
@@ -80,7 +80,7 @@ To run this project locally, follow these steps:
 git clone https://github.com/Ncticn/javascript-projects.git
 
 # Navigate to the project directory
-cd 011-results-summary-component
+cd 012-results-summary-component
 ```
 
 Then open the project with a local development server, such as the **Live Server** extension in VS Code.
