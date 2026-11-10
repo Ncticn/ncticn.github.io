@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | NFT Preview Card Component</title>
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <main>
+        <article class="card-nft-preview" aria-labelledby="nft-title">
+            <div class="card-nft-preview__wrapper">
+                <div class="card-nft-preview__image">
+                    <a href="#" class="card-nft-preview__image-link" aria-label="View Equilibrium #3429">
+                        <img src="./assets/images/image-equilibrium.jpg"
+                            alt="Equilibrium #3429: a glowing translucent cube balanced on its corner over a dark blue background"
+                            class="card-nft-preview__image--img" width="604" height="604">
+                    </a>
+                </div>
+                <div class="card-nft-preview__content">
+                    <h1 id="nft-title" class="card-nft-preview__content--title text-xl font-semibold">
+                        <a href="#" class="card-nft-preview__title-link">Equilibrium #3429</a>
+                    </h1>
+                    <p class="card-nft-preview__content--description text-lg font-light">Our Equilibrium collection
+                        promotes balance and calm.</p>
+                    <div class="card-nft-preview__content--info">
+                        <p class="card-nft-preview__content--price">
+                            <img src="./assets/icons/icon-ethereum.svg" alt=""
+                                class="card-nft-preview__content--price-icon">
+                            <span class="card-nft-preview__content--price-text text-lg font-semibold">
+                                <span class="visually-hidden">Price: </span>0.041 ETH
+                            </span>
+                        </p>
+                        <p class="card-nft-preview__content--time">
+                            <img src="./assets/icons/icon-clock.svg" alt="" class="card-nft-preview__content--time-icon">
+                            <time datetime="P3D" class="card-nft-preview__content--time-text">3 days left</time>
+                        </p>
+                    </div>
+                </div>
+                <hr class="divider">
+                <footer class="card-nft-preview__creator">
+                    <div class="card-nft-preview__creator-avatar">
+                        <img src="./assets/images/image-avatar.png" alt=""
+                            class="card-nft-preview__creator-avatar--img" width="33" height="33">
+                    </div>
+                    <p class="card-nft-preview__creator-text text-base font-light">Creation of
+                        <a href="#" class="card-nft-preview__creator-link text-base font-light">Jules Wyvern</a>
+                    </p>
+                </footer>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
