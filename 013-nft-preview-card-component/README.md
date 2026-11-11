@@ -62,7 +62,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/013-nft-preview-card-component
-- 🧠 **Challenge:** [LİVE_SERVER_URL]
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-4krmWUsJL0
 
 
 ## ⚙️ Installation & Running the Project
@@ -79,7 +79,6 @@ cd 013-nft-preview-card-component
 
 Then open the project with a local development server, such as the **Live Server** extension in VS Code.
 
-> **Note:** Opening `index.html` directly in the browser will not work correctly, because browsers block `fetch` requests to local files. A local server is required to load `data.json`.
 
 
 ## 👤 Author
