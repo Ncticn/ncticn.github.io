@@ -52,7 +52,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 - 💻 **Live Demo:** https://ncticn.github.io/014-order-summary-component
-- 🧠 **Challenge:** [CHALLENGE_URL]
+- 🧠 **Challenge:** https://www.frontendmentor.io/solutions/order-summary-component-html-css-9G7A3eObsv
 
 
 ## ⚙️ Installation & Running the Project
